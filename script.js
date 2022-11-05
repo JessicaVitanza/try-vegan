@@ -260,12 +260,11 @@ const displayRecipes = (name, img, scope, facility, ingredients, preparation, ti
     body.appendChild(footer);
 
 
-
     function topFunction() {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
      }
 
      const button = document.getElementById("myBtn");
-    // button.onclick = topFunction;
     button.addEventListener("click", topFunction);
+

@@ -384,4 +384,33 @@ padding: 12px 1000px;
         color: #fff;
         text-decoration: none;
       }
+      #container-antipasti,
+      #container-primi,
+      #container-secondi,
+      #container-contorni,
+      #container-dolci,
+      #container-salse {
+          height: 1020px;
+          overflow-x: scroll; 
+          overflow-y: hidden; 
+      }
+      
+      #container {
+        flex-direction: row;
+        align-items: flex-start;   
+        justify-content: flex-start; 
+        gap: 20px;
+ }
+
+ .card {
+ width:700px;
+ height: 865px;
+ box-shadow: 3px 3px 6px  rgba(49, 19, 4, 0.845);
+ }
+
+ .bottom-card{
+   height: 400px;
+   overflow-y: scroll;
+ }
+
 }
